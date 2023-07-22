@@ -100,6 +100,7 @@ body{
     width:50%;
     font-weight: 400;
 }
+
 .text p{
     font-weight: 600;
     color: rgb(83, 83, 83);
@@ -136,7 +137,8 @@ body{
     padding-top:0;
 }
 .text-02{
-    margin:50px;
+    margin: 0;
+    overflow: hidden;
 }
 .text-02.text{
     width:100%;
@@ -145,6 +147,19 @@ body{
     text-align: left;
     font-size: 150%;
     margin-top: 0;
+}
+.text-02 ul{
+    width: 80%;
+    height: auto;
+}
+.text-02 ul li{
+    display: inline-block;
+    width: 90%;
+    height: auto;
+}
+.text-02 a{
+    display: inline-block;
+    width: auto;
 }
 
 .text-02 > p{
@@ -163,6 +178,9 @@ body{
     align-items: left;
     justify-content: left;
     text-align: left;
+}
+.how.section{
+    height: auto;
 }
 .wrapper{
     width:60vw;
@@ -625,5 +643,14 @@ button:hover{
 
     .cbox{
         height: 30vh;
+    }
+}
+@media all and (max-width: 500px) {
+    .pageTitle{
+        padding-right:0;
+        font-size: 300%;
+    }
+    .text-02{
+        padding: 0;
     }
 }
